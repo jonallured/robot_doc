@@ -31,3 +31,5 @@ group :test do
   gem 'factory_bot_rails'
   gem 'selenium-webdriver'
 end
+
+gem 'graphiql-rails', group: :development
