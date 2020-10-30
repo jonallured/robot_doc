@@ -3,7 +3,7 @@ class CreateRobots < ActiveRecord::Migration[6.0]
     create_table :robots do |t|
       t.belongs_to :user
       t.string :name
-      t.string :type
+      t.string :color
       t.timestamps
     end
   end

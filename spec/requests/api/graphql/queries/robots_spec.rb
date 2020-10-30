@@ -10,8 +10,9 @@ describe 'robots query' do
       defaultRobots#{query_inputs} {
         edges {
           node {
+            color
+            id
             name
-            type
           }
         }
       }

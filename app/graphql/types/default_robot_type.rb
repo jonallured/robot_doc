@@ -7,6 +7,6 @@ module Types
     field :id, ID, 'Uniq ID for this robot', null: false
 
     field :name, String, null: false
-    field :type, String, null: false
+    field :color, String, null: false
   end
 end

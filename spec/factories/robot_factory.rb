@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :robot do
     name { 'r2d2' }
-    type { 'astromech droid' }
+    color { 'blue' }
     user
   end
 end
