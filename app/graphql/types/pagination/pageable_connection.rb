@@ -41,6 +41,7 @@ module Types
         exceeds_max_cursor_count = total_pages > MAX_CURSOR_COUNT
         include_first_cursor =
           exceeds_max_cursor_count && around_page_numbers.exclude?(1)
+
         return unless include_first_cursor
 
         page_cursor(1)
